@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"lib": ["esnext", "dom"],
+
+		"strict": true,
+
+		"jsx": "react-jsx",
+		"jsxImportSource": "hono/jsx",
+
+		"baseUrl": "./",
+		"paths": {
+			"~/*": ["./src/*"]
+		}
+	}
+}
